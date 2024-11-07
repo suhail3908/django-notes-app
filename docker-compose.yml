@@ -3,4 +3,4 @@ services :
   web :
      image: "trainwithshubham/notes-app:latest"
      ports :
-         - "9000:9000"
+         - "3908:3908"

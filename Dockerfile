@@ -7,6 +7,6 @@ RUN pip install -r requirements.txt
 
 COPY . /app/backend
 
-EXPOSE 9000
+EXPOSE 3908
 
-CMD python /app/backend/manage.py runserver 0.0.0.0:9000
+CMD python /app/backend/manage.py runserver 0.0.0.0:3908

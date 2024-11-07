@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
     - port: 80
-      targetPort: 9000
+      targetPort: 3908
   selector:
     app: todo-app
   type: NodePort
